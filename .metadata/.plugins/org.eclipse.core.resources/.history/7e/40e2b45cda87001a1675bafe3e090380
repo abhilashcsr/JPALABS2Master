@@ -1,0 +1,21 @@
+package com.cg.iter.client;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+/**
+ * Entity implementation class for Entity: Main
+ *
+ */
+@Entity
+
+public class Main implements Serializable {
+
+	
+	private static final long serialVersionUID = 1L;
+
+	public Main() {
+		super();
+	}
+   
+}
